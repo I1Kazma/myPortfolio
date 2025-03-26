@@ -6,6 +6,9 @@
   border-bottom: 1px solid var(--nav-border);
   color: var(--nav-text);
   letter-spacing: normal;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 
 .nav-row {
@@ -34,7 +37,7 @@
   row-gap: 10px;
   align-items: center;
   column-gap: 40px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }

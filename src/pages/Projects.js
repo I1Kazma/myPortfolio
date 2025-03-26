@@ -5,16 +5,16 @@ const Projects = () => {
   return (
     <main className="section">
       <div className="container">
-        <h2 className="title-1">Projects</h2>
+        <h2 className="title-1">Основные проекты</h2>
         <ul className="projects">
-          {projects.map((project) => {
+          {projects.map((project, index) => {
             return (
               <Project
-                key={project.id}
+                key={index}
                 img={project.img}
                 title={project.title}
                 githubLink={project.githubLink}
-                index={project.id}
+                index={index}
               />
             );
           })}

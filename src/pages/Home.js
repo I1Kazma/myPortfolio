@@ -7,17 +7,71 @@ const Home = () => {
       <main className="section">
         <div className="container">
           <ul className="content-list">
-            <li className="content-list__item">
-              <h2 className="title-2">Frontend</h2>
-              <p>
-                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, SASS, NPM,
-                BootStrap, MaterialUI, Ant Design, StyledComponents
-              </p>
-            </li>
-            <li className="content-list__item">
-              <h2 className="title-2">Backend</h2>
-              <p>NodeJS, MySQL, PHP</p>
-            </li>
+            <h2 className="title-2">Мои навыки</h2>
+            <ul className="content-list__items">
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-html5"></i>
+                </div>
+                <h3>HTML5</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-css3"></i>
+                </div>
+                <h3>CSS3</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-sass"></i>
+                </div>
+                <h3>SASS</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-javascript"></i>
+                </div>
+                <h3>JavaScript</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-jquery"></i>
+                </div>
+                <h3>jQuery</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-react"></i>
+                </div>
+                <h3>ReactJS</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-php"></i>
+                </div>
+                <h3>PHP</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bxl-postgresql"></i>
+                </div>
+                <h3>MySQL</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bx-package"></i>
+                </div>
+                <h3>Webpack</h3>
+              </li>
+            </ul>
           </ul>
         </div>
       </main>

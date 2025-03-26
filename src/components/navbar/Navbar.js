@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>I1Kazma</strong> portfolio
+            <strong>I1Kazma</strong>
           </NavLink>
 
           <BtnDarkMode />
@@ -25,7 +25,7 @@ const Navbar = () => {
                   isActive ? activeLink : normalLink
                 }
               >
-                Home
+                Главная
               </NavLink>
             </li>
             <li className="nav-list__item">
@@ -35,7 +35,7 @@ const Navbar = () => {
                   isActive ? activeLink : normalLink
                 }
               >
-                Projects
+                Проекты
               </NavLink>
             </li>
             <li className="nav-list__item">
@@ -45,7 +45,7 @@ const Navbar = () => {
                   isActive ? activeLink : normalLink
                 }
               >
-                Contacts
+                Контакты
               </NavLink>
             </li>
           </ul>

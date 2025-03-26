@@ -3,10 +3,13 @@
   background-color: var(--project-card-bg);
   box-shadow: var(--box-shadow);
   border-radius: 10px;
+  height: 100%;
 }
 
 .project__img {
   border-radius: 10px;
+  height: 230px;
+  object-fit: cover;
 }
 
 .project__title {
