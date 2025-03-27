@@ -34,9 +34,22 @@ import project11Big from "./../img/projects/11-big.png";
 import project12 from "./../img/projects/12.png";
 import project12Big from "./../img/projects/12-big.png";
 
+import project13 from "./../img/projects/13.png";
+import project13Big from "./../img/projects/13-big.png";
+
 const projects = [
   {
     id: 1,
+    title: "SPA-приложение социальной сети (in development)",
+    description: "In development",
+    img: project13,
+    imgBig: project13Big,
+    link: "/",
+    skills: "React, SASS, REST API",
+    githubLink: "https://github.com/I1Kazma/social-web",
+  },
+  {
+    id: 2,
     title: "SPA-резюме на React",
     description: "Мое небольшое резюме",
     img: project01,
@@ -46,7 +59,7 @@ const projects = [
     githubLink: "https://github.com/I1Kazma/myPortfolio",
   },
   {
-    id: 2,
+    id: 3,
     title: "SPA приложение крипто-портфеля",
     description:
       "SPA-приложение, которое подгружает данные по API о криптовалютах. Используются компоненты Ant Design 5.0, также присутствует возможность добавления новых криптовалют и удаление старых. Также можно просмотреть информацию по конкретной крипте",
@@ -57,7 +70,7 @@ const projects = [
     githubLink: "https://github.com/I1Kazma/crypto-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "SPA-приложение Marvel",
     description:
       "SPA-приложение, использующее MarvelAPI, которое используется для загрузки персонажей на страницу, выводе подробной информации об одном из них, а также выводе рандомного персонажа и информации о нем в шапке",
@@ -68,7 +81,7 @@ const projects = [
     githubLink: "https://github.com/I1Kazma/Marvel-Characters",
   },
   {
-    id: 4,
+    id: 5,
     title: "SPA-приложение прогноза погоды в разных городах",
     description:
       "SPA-приложение, которое по Weather API берет данные о погоде и выводит их на страницу. Присутствует возможность выбора любого города на планете и вывода погоды, температуры, скорости ветра и иконки погоды на страницу",
@@ -79,7 +92,7 @@ const projects = [
     githubLink: "https://github.com/I1Kazma/weather-forecast",
   },
   {
-    id: 5,
+    id: 6,
     title: "SPA-приложение формата ToDo",
     description:
       "Первое тестовое приложение, написанное на React. Присутствует возможность удаления и добавления нового сотрудника с зарплатой + добавление отметок о выдаче премии и повышении. Также с помощью поисковой панели и фильтров можно найти нужного сотрудника Вся информация о сотрудниках динамически обновляется в шапке и может быть отредактирована",
@@ -91,7 +104,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "SPA-лендинг sportnoise.ru",
     description: "",
     img: project05,
@@ -102,7 +115,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Сайт glens39.ru",
     img: project12,
     imgBig: project12Big,
@@ -112,7 +125,7 @@ const projects = [
   },
 
   {
-    id: 11,
+    id: 9,
     title: "Сайт bs107.ru",
     img: project06,
     imgBig: project06Big,
@@ -122,7 +135,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 10,
     title: "Сайт macromer.ru",
     description: "",
     img: project07,
@@ -132,7 +145,7 @@ const projects = [
     githubLink: "",
   },
   {
-    id: 9,
+    id: 11,
     title: "Сайт biovat.ru",
     description: "",
     img: project08,
@@ -142,7 +155,7 @@ const projects = [
     githubLink: "",
   },
   {
-    id: 10,
+    id: 12,
     title: "Сайт logist4you.ru",
     description: "",
     img: project09,
@@ -152,7 +165,7 @@ const projects = [
     githubLink: "",
   },
   {
-    id: 11,
+    id: 13,
     title: "Сайт hotel-hercules.ru",
     img: project10,
     imgBig: project10Big,
