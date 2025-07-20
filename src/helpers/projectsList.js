@@ -47,7 +47,7 @@ const projects = [
     description: "An SPA of e-commerce shop (in development)",
     img: project14,
     imgBig: project14Big,
-    link: "/",
+    link: "https://e-commerce-i1-kazma.vercel.app/",
     skills: "React, OAuth, TypeScript, Next.js, Tailwind, REST API, Zustand",
     githubLink: "https://github.com/I1Kazma/e-commerce-I1Kazma",
   },
