@@ -93,6 +93,13 @@ const Home = () => {
                 <h3>Webpack</h3>
               </li>
 
+                <li className="content-list__item">
+                <div className="s-icons">
+                  <i className='bx bxl-docker'></i>
+                </div>
+                <h3>Docker</h3>
+              </li>
+
                
 
     
