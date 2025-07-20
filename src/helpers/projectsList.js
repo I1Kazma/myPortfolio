@@ -37,32 +37,45 @@ import project12Big from "./../img/projects/12-big.png";
 import project13 from "./../img/projects/13.png";
 import project13Big from "./../img/projects/13-big.png";
 
+import project14 from "./../img/projects/14.png";
+import project14Big from "./../img/projects/14-big.png";
+
 const projects = [
-  {
+    {
     id: 1,
-    title: "SPA-приложение социальной сети (in development)",
-    description: "In development",
-    img: project13,
-    imgBig: project13Big,
+    title: "SPA E-commerce shop (in development)",
+    description: "An SPA of e-commerce shop (in development)",
+    img: project14,
+    imgBig: project14Big,
     link: "/",
-    skills: "React, SASS, REST API",
-    githubLink: "https://github.com/I1Kazma/social-web",
+    skills: "React, OAuth, TypeScript, Next.js, Tailwind, REST API, Zustand",
+    githubLink: "https://github.com/I1Kazma/e-commerce-I1Kazma",
   },
   {
     id: 2,
-    title: "SPA-резюме на React",
-    description: "Мое небольшое резюме",
-    img: project01,
-    imgBig: project01Big,
+    title: "SPA Social Network",
+    description: "Social network SPA application based on React, SASS, REST API, MongoDB with the ability to register, authorize, and add posts. Plans: online chat",
+    img: project13,
+    imgBig: project13Big,
     link: "/",
-    skills: "React, HTML, CSS",
-    githubLink: "https://github.com/I1Kazma/myPortfolio",
+    skills: "React, SASS, REST API, MongoDB, Postman, Express, Mongoose, Axios",
+    githubLink: "https://github.com/I1Kazma/social-web",
   },
   {
     id: 3,
-    title: "SPA приложение крипто-портфеля",
+    title: "SPA CV",
+    description: "My resume",
+    img: project01,
+    imgBig: project01Big,
+    link: "/",
+    skills: "React, SASS, API",
+    githubLink: "https://github.com/I1Kazma/myPortfolio",
+  },
+  {
+    id: 4,
+    title: "SPA Crypto",
     description:
-      "SPA-приложение, которое подгружает данные по API о криптовалютах. Используются компоненты Ant Design 5.0, также присутствует возможность добавления новых криптовалют и удаление старых. Также можно просмотреть информацию по конкретной крипте",
+      "An SPA application that loads data via API about cryptocurrencies. Ant Design 5.0 components are used, and there is also the ability to add new cryptocurrencies and remove old ones. You can also view information on a specific crypt",
     img: project02,
     imgBig: project02Big,
     link: "https://crypto-biartxhvo-i1kazmas-projects.vercel.app/",
@@ -70,10 +83,10 @@ const projects = [
     githubLink: "https://github.com/I1Kazma/crypto-app",
   },
   {
-    id: 4,
-    title: "SPA-приложение Marvel",
+    id: 5,
+    title: "SPA Marvel",
     description:
-      "SPA-приложение, использующее MarvelAPI, которое используется для загрузки персонажей на страницу, выводе подробной информации об одном из них, а также выводе рандомного персонажа и информации о нем в шапке",
+      "An SPA application using MarvelAPI, which is used to load characters on the page, displays detailed information about one of them, and also displays a random character and its information in the header.",
     img: project04,
     imgBig: project04Big,
     link: "https://marvel-characters-dun.vercel.app/",
@@ -81,10 +94,10 @@ const projects = [
     githubLink: "https://github.com/I1Kazma/Marvel-Characters",
   },
   {
-    id: 5,
+    id: 6,
     title: "SPA-приложение прогноза погоды в разных городах",
     description:
-      "SPA-приложение, которое по Weather API берет данные о погоде и выводит их на страницу. Присутствует возможность выбора любого города на планете и вывода погоды, температуры, скорости ветра и иконки погоды на страницу",
+      "An SPA application that uses the Weather API to take weather data and display it on the page. There is the ability to select any city on the planet and display weather, temperature, wind speed and weather icons on the page",
     img: project11,
     imgBig: project11Big,
     link: "",
@@ -92,10 +105,10 @@ const projects = [
     githubLink: "https://github.com/I1Kazma/weather-forecast",
   },
   {
-    id: 6,
-    title: "SPA-приложение формата ToDo",
+    id: 7,
+    title: "SPA ToDo",
     description:
-      "Первое тестовое приложение, написанное на React. Присутствует возможность удаления и добавления нового сотрудника с зарплатой + добавление отметок о выдаче премии и повышении. Также с помощью поисковой панели и фильтров можно найти нужного сотрудника Вся информация о сотрудниках динамически обновляется в шапке и может быть отредактирована",
+      "The first test application written in React. There is the possibility of deleting and adding a new employee with a salary + adding notes on bonuses and promotions. Also, using the search panel and filters, you can find the desired employee. All information about employees is dynamically updated in the header and can be edited",
     img: project03,
     imgBig: project03Big,
     link: "https://to-do-react-inky-ten.vercel.app/",
@@ -104,8 +117,8 @@ const projects = [
   },
 
   {
-    id: 7,
-    title: "SPA-лендинг sportnoise.ru",
+    id: 8,
+    title: "Sportnoise.ru",
     description: "",
     img: project05,
     imgBig: project05Big,
@@ -115,8 +128,8 @@ const projects = [
   },
 
   {
-    id: 8,
-    title: "Сайт glens39.ru",
+    id: 9,
+    title: "Glens39.ru",
     img: project12,
     imgBig: project12Big,
     link: "https://glens39.ru/",
@@ -125,8 +138,8 @@ const projects = [
   },
 
   {
-    id: 9,
-    title: "Сайт bs107.ru",
+    id: 10,
+    title: "bs107.ru",
     img: project06,
     imgBig: project06Big,
     link: "https://bs107.ru/",
@@ -135,8 +148,8 @@ const projects = [
   },
 
   {
-    id: 10,
-    title: "Сайт macromer.ru",
+    id: 11,
+    title: "Macromer.ru",
     description: "",
     img: project07,
     imgBig: project07Big,
@@ -145,8 +158,8 @@ const projects = [
     githubLink: "",
   },
   {
-    id: 11,
-    title: "Сайт biovat.ru",
+    id: 12,
+    title: "Biovat.ru",
     description: "",
     img: project08,
     imgBig: project08Big,
@@ -155,8 +168,8 @@ const projects = [
     githubLink: "",
   },
   {
-    id: 12,
-    title: "Сайт logist4you.ru",
+    id: 13,
+    title: "Logist4you.ru",
     description: "",
     img: project09,
     imgBig: project09Big,
@@ -165,8 +178,8 @@ const projects = [
     githubLink: "",
   },
   {
-    id: 13,
-    title: "Сайт hotel-hercules.ru",
+    id: 14,
+    title: "Hotel-hercules.ru",
     img: project10,
     imgBig: project10Big,
     link: "https://hotel-hercules.ru/",
