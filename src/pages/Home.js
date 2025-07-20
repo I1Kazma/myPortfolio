@@ -53,9 +53,16 @@ const Home = () => {
 
               <li className="content-list__item">
                 <div className="s-icons">
-                  <i className="bxl bx-next-js"></i>
+                  <i className="bx bx-code-alt"></i>
                 </div>
                 <h3>Next.js</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bx-code-alt"></i>
+                </div>
+                <h3>Rest API</h3>
               </li>
 
               <li className="content-list__item">
@@ -78,8 +85,6 @@ const Home = () => {
                 </div>
                 <h3>PHP</h3>
               </li>
-
-  
 
               <li className="content-list__item">
                 <div className="s-icons">
