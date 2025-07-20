@@ -53,21 +53,21 @@ const Home = () => {
 
               <li className="content-list__item">
                 <div className="s-icons">
-                  <i className="bx bx-next-js"></i>
+                  <i className="bx bxl-next-js"></i>
                 </div>
                 <h3>Next.js</h3>
               </li>
 
               <li className="content-list__item">
                 <div className="s-icons">
-                  <i className="bx bx-redux"></i>
+                  <i className="bx bxl-redux"></i>
                 </div>
                 <h3>Redux</h3>
               </li>
 
                <li className="content-list__item">
                 <div className="s-icons">
-                  <i className="bx bx-mongodb"></i>
+                  <i className="bx bxl-mongodb"></i>
                 </div>
                 <h3>MongoDb</h3>
               </li>
@@ -83,7 +83,7 @@ const Home = () => {
 
               <li className="content-list__item">
                 <div className="s-icons">
-                  <i className="bx bx-package"></i>
+                  <i className="bx bxl-package"></i>
                 </div>
                 <h3>Webpack</h3>
               </li>
