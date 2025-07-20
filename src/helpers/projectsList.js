@@ -49,7 +49,7 @@ const projects = [
     imgBig: project14Big,
     link: "https://e-commerce-i1-kazma.vercel.app/",
     skills: "React, OAuth, TypeScript, Next.js, Tailwind, REST API, Zustand",
-    githubLink: "https://github.com/I1Kazma/e-commerce-I1Kazma",
+    githubLink: "https://github.com/I1Kazma/e-commerce_shop",
   },
   {
     id: 2,
