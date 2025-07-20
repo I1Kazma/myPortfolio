@@ -53,7 +53,7 @@ const Home = () => {
 
               <li className="content-list__item">
                 <div className="s-icons">
-                  <i className="bx bxl-next-js"></i>
+                  <i className="bxl bx-next-js"></i>
                 </div>
                 <h3>Next.js</h3>
               </li>
@@ -83,7 +83,7 @@ const Home = () => {
 
               <li className="content-list__item">
                 <div className="s-icons">
-                  <i className="bx bxl-package"></i>
+                  <i className="bx bx-package"></i>
                 </div>
                 <h3>Webpack</h3>
               </li>
