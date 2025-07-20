@@ -53,17 +53,33 @@ const Home = () => {
 
               <li className="content-list__item">
                 <div className="s-icons">
+                  <i className="bx bx-next-js"></i>
+                </div>
+                <h3>Next.js</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bx-redux"></i>
+                </div>
+                <h3>Redux</h3>
+              </li>
+
+               <li className="content-list__item">
+                <div className="s-icons">
+                  <i className="bx bx-mongodb"></i>
+                </div>
+                <h3>MongoDb</h3>
+              </li>
+
+              <li className="content-list__item">
+                <div className="s-icons">
                   <i className="bx bxl-php"></i>
                 </div>
                 <h3>PHP</h3>
               </li>
 
-              <li className="content-list__item">
-                <div className="s-icons">
-                  <i className="bx bxl-postgresql"></i>
-                </div>
-                <h3>MySQL</h3>
-              </li>
+  
 
               <li className="content-list__item">
                 <div className="s-icons">
@@ -71,6 +87,10 @@ const Home = () => {
                 </div>
                 <h3>Webpack</h3>
               </li>
+
+               
+
+    
             </ul>
           </ul>
         </div>
